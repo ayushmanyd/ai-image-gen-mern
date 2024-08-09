@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="150" viewBox="0 0 400 150">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 83.333px;
+      }
+
+      .cls-1, .cls-3 {
+        text-anchor: middle;
+        font-family: "Product Sans Black";
+      }
+
+      .cls-2 {
+        fill: #00a2e8;
+        font-style: italic;
+      }
+
+      .cls-3 {
+        font-size: 62.5px;
+      }
+    </style>
+  </defs>
+  <text id="AI_IMAGE" data-name="AI IMAGE" class="cls-1" x="202" y="79"><tspan x="202">AI <tspan class="cls-2">IMAGE</tspan></tspan></text>
+  <text id="GENERATOR" class="cls-3" x="199" y="131"><tspan x="199">GENERATOR</tspan></text>
+</svg>
