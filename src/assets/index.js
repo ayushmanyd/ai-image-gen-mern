@@ -14,5 +14,17 @@ export const prompts = [
     "A beautiful garden with blooming flowers",
     "A surreal dreamscape with floating islands",
     "A steampunk city with gears and cogs",
-    "A dense jungle with exotic animals"
+    "A dense jungle with exotic animals",
+    "A futuristic robot in a high-tech city",
+    "A serene river flowing through a forest",
+    "A mystical cave with glowing crystals",
+    "A fantasy forest with magical creatures",
+    "A colorful sunset over the ocean",
+    "A bustling city street at night",
+    "A tranquil meadow with wildflowers",
+    "A majestic waterfall in a tropical paradise",
+    "A surreal landscape with giant mushrooms",
+    "A futuristic spacecraft in deep space",
+    "A peaceful Zen garden with a koi pond",
+    "A vibrant carnival with rides and games"
 ];
