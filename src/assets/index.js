@@ -47,5 +47,17 @@ export const prompts = [
     "A surreal underwater city with glowing lights",
     "A bustling urban park with people and pets",
     "A tranquil mountain scene with a cozy cabin",
-    "A vibrant street festival with music and dancing"
+    "A vibrant street festival with music and dancing",
+    "A futuristic city with neon lights",
+    "A peaceful garden with a stone pathway",
+    "A colorful butterfly on a blooming flower",
+    "A majestic lion in a savannah",
+    "A vibrant tropical beach with palm trees",
+    "A bustling urban skyline at dusk",
+    "A serene forest with a babbling brook",
+    "A magical night sky with shooting stars",
+    "A futuristic cityscape with towering skyscrapers",
+    "A peaceful meadow with grazing deer",
+    "A vibrant underwater scene with fish and corals",
+    "A majestic mountain range with snow-capped peaks"
 ];
