@@ -39,4 +39,13 @@ export const prompts = [
     "A bustling marketplace in a fantasy world",
     "A serene lake with a swan gliding on it",
     "A colorful autumn forest with falling leaves",
+    "A futuristic robot exploring an alien planet",
+    "A majestic eagle soaring over mountains",
+    "A vibrant sunset over a desert landscape",
+    "A peaceful countryside scene with a windmill",
+    "A magical library with floating books",
+    "A surreal underwater city with glowing lights",
+    "A bustling urban park with people and pets",
+    "A tranquil mountain scene with a cozy cabin",
+    "A vibrant street festival with music and dancing"
 ];
