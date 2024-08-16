@@ -59,5 +59,13 @@ export const prompts = [
     "A futuristic cityscape with towering skyscrapers",
     "A peaceful meadow with grazing deer",
     "A vibrant underwater scene with fish and corals",
-    "A majestic mountain range with snow-capped peaks"
+    "A majestic mountain range with snow-capped peaks",
+    "A surreal landscape with floating islands and waterfalls",
+    "A bustling city street with colorful storefronts",
+    "A tranquil garden with a wooden bridge",
+    "A futuristic robot in a high-tech lab",
+    "A colorful sunset over a calm lake",
+    "A serene winter scene with snow-covered trees",
+    "A vibrant street market with exotic foods",
+    "A magical forest with a hidden waterfall"
 ];
