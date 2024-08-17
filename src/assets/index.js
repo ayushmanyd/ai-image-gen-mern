@@ -87,5 +87,16 @@ export const prompts = [
     "A futuristic city with advanced robotics",
     "A peaceful beach with a lighthouse",
     "A surreal landscape with floating rocks",
-    "A bustling city street with neon signs"
+    "A bustling city street with neon signs",
+    "A tranquil garden with a koi pond",
+    "A colorful butterfly on a leaf",
+    "A majestic tiger in a jungle",
+    "A vibrant coral reef with tropical fish",
+    "A bustling city park with a playground",
+    "A serene mountain scene with a lake",
+    "A magical forest with a hidden cabin",
+    "A vibrant street parade with costumes",
+    "A futuristic robot in a cityscape",
+    "A peaceful beach with seashells",
+    "A surreal landscape with floating crystals"
 ];
