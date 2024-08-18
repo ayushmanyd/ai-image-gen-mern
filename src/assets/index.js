@@ -107,5 +107,15 @@ export const prompts = [
     "A tranquil zen garden with a bonsai tree",
     "A bustling cyberpunk city with neon signs",
     "A magical ice palace in a snowy landscape",
-    "A surreal landscape with floating geometric shapes"
+    "A surreal landscape with floating geometric shapes",
+    "A peaceful beach with bioluminescent waves",
+    "A futuristic space station orbiting a distant planet",
+    "A vibrant city park with cherry blossoms in bloom",
+    "A majestic wolf howling at the moon in a snowy forest",
+    "A bustling fish market in a coastal town",
+    "A serene forest clearing with a deer grazing",
+    "A futuristic robot repairing a spaceship",
+    "A magical meadow with unicorns grazing",
+    "A vibrant street festival with lanterns and fireworks",
+    "A peaceful river flowing through a sunflower field"
 ];
