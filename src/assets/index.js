@@ -98,5 +98,14 @@ export const prompts = [
     "A vibrant street parade with costumes",
     "A futuristic robot in a cityscape",
     "A peaceful beach with seashells",
-    "A surreal landscape with floating crystals"
+    "A surreal landscape with floating crystals",
+    "A floating island with a waterfall cascading into the sky",
+    "A mystical moonlit forest with glowing mushrooms",
+    "A futuristic city with transparent skyscrapers",
+    "A serene desert oasis with palm trees and camels",
+    "A vibrant street market in a Moroccan city",
+    "A tranquil zen garden with a bonsai tree",
+    "A bustling cyberpunk city with neon signs",
+    "A magical ice palace in a snowy landscape",
+    "A surreal landscape with floating geometric shapes"
 ];
