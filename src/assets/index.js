@@ -147,5 +147,15 @@ export const prompts = [
     "A futuristic robot in a jungle setting",
     "A magical garden with floating orbs of light",
     "A surreal landscape with a giant clock tower",
-    "A vibrant street scene with people dancing"
+    "A vibrant street scene with people dancing",
+    "A tranquil mountain path with wildflowers",
+    "A futuristic city with a skyline of floating buildings",
+    "A mystical river flowing through a glowing canyon",
+    "A serene autumn landscape with colorful leaves falling",
+    "A bustling market on a floating island in the sky",
+    "A tranquil lakeside with a full moon reflected on the water",
+    "A vibrant festival of lights in an ancient city",
+    "A surreal dreamscape with endless staircases",
+    "A peaceful countryside with a field of lavender",
+    "A futuristic underwater city with glass domes"
 ];
