@@ -167,5 +167,15 @@ export const prompts = [
     "A surreal landscape with floating clocks and melting objects",
     "A bustling harbor with sailboats and seagulls",
     "A peaceful meadow with a lone oak tree in the center",
-    "A vibrant street market in a small European town"
+    "A vibrant street market in a small European town",
+    "A futuristic spaceship flying through an asteroid field",
+    "A magical winter landscape with a snow-covered castle",
+    "A bustling urban skyline with towering skyscrapers",
+    "A tranquil forest with a misty morning fog",
+    "A vibrant street parade with musicians and dancers",
+    "A peaceful garden with a cascading waterfall",
+    "A surreal landscape with giant, floating eyes",
+    "A futuristic cityscape with sleek, silver buildings",
+    "A magical moonlit night with a glowing castle",
+    "A bustling food market with exotic fruits and spices"
 ];
