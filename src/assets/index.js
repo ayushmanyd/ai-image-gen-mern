@@ -187,5 +187,16 @@ export const prompts = [
     "A tranquil mountain stream with rocks and moss",
     "A futuristic city with massive holographic billboards",
     "A mystical forest with an ancient stone circle",
-    "A peaceful beach at sunset with calm waves"
+    "A peaceful beach at sunset with calm waves",
+    "A vibrant street fair with carnival rides and games",
+    "A surreal desert landscape with towering sand sculptures",
+    "A bustling cityscape with flying vehicles and neon lights",
+    "A tranquil garden with a stone Buddha statue",
+    "A futuristic lab with glowing tubes and machines",
+    "A magical landscape with floating crystal islands",
+    "A serene forest trail leading to a hidden waterfall",
+    "A vibrant night scene in a bustling Asian city",
+    "A peaceful orchard in full bloom during spring",
+    "A surreal landscape with giant, floating orbs",
+    "A futuristic robot in a dystopian cityscape"
 ];
