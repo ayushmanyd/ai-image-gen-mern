@@ -177,5 +177,15 @@ export const prompts = [
     "A surreal landscape with giant, floating eyes",
     "A futuristic cityscape with sleek, silver buildings",
     "A magical moonlit night with a glowing castle",
-    "A bustling food market with exotic fruits and spices"
+    "A bustling food market with exotic fruits and spices",
+    "A serene lake surrounded by towering pine trees",
+    "A futuristic robot walking through a dense jungle",
+    "A vibrant city park with a flowing river and bridges",
+    "A magical treehouse nestled high in a giant tree",
+    "A surreal landscape with giant floating bubbles",
+    "A bustling night market with colorful lanterns",
+    "A tranquil mountain stream with rocks and moss",
+    "A futuristic city with massive holographic billboards",
+    "A mystical forest with an ancient stone circle",
+    "A peaceful beach at sunset with calm waves"
 ];
