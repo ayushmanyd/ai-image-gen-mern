@@ -22,7 +22,11 @@ const Home = () => {
 
         <div className="mt-10">
           {loading ? (
-            
+            <div className="flex justify-center items-center">
+              <Loader />
+            </div>
+          ) : (
+            <></>
           )}
         </div>
       </div>
