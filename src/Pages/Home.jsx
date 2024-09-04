@@ -16,6 +16,10 @@ const Home = () => {
           Browse through a collection of already generated stunning images
         </p>
 
+        <div className="mt-16">
+          <FormField />
+        </div>
+
       </div>
     </section>
   );
