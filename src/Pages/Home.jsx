@@ -2,6 +2,12 @@ import React, { useState, useEffect } from "react";
 
 import { Card, Loader, FormField } from "../components";
 
+const RenderCards = ({ data, title }) => {
+  if (data?.length > 0) {
+    return data.map((post) => <Card key={post.id} {...post} />);
+  }
+};
+
 const Home = () => {
   const [loading, setLoading] = useState(true);
   const [allPosts, setAllPosts] = useState(null);
