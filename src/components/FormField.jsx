@@ -29,6 +29,12 @@ const FormField = ({
           </button>
         )}
       </div>
+      <input
+        type={type}
+        id={name}
+        name={name}
+        placeholder={placeholder}
+      />
     </div>
   );
 };
