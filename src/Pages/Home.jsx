@@ -52,6 +52,16 @@ const Home = () => {
         </div>
         
       <div>
+        <h1 className="font-extrabold text-[#222328] text-[32px]">
+          Explore others Post
+        </h1>
+        <p className="mt-2 text-[#666e75] text-[16px] max-w[500px]">
+          Browse through a collection of already generated stunning images
+        </p>
+      </div>
+
+      <div className="mt-16">
+        <FormField />
       </div>
 
     </section>
