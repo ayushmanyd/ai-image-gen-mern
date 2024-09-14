@@ -6,6 +6,12 @@ import { getRandomPrompt } from "../utils";
 import { FormField, Loader } from "../components";
 
 const CreateNewPost = () => {
+  const navigate = useNavigate();
+  const [form, setForm] = useState({
+    name: "",
+    prompt: "",
+    photo: "",
+  });
 };
 
 export default CreateNewPost;
