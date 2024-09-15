@@ -12,6 +12,15 @@ const CreateNewPost = () => {
     prompt: "",
     photo: "",
   });
+  const [generatingImage, setGeneratingImage] = useState(false);
+  const [loading, setLoading] = useState(false);
+
+  const handleSubmit = () => {};
+
+  const handleChange = (e) => {};
+
+  const handleSurpriseMe = () => {};
+
 };
 
 export default CreateNewPost;
