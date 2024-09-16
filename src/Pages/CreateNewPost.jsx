@@ -30,6 +30,18 @@ const CreateNewPost = () => {
         </p>
       </div>
 
+      <form className="mt-16 max-w-3xl" onSubmit={handleSubmit}>
+        <div className="flex flex-col gap-5">
+          <FormField
+            LabelName="Your name"
+            type="text"
+            name="name"
+            placeholder="Tony Stack"
+            value={form.name}
+            handleChange={handleChange}
+          />
+        </div>
+      </form>
     </section>
   );
 };
