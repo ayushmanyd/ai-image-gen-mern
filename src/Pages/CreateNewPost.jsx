@@ -40,6 +40,12 @@ const CreateNewPost = () => {
             value={form.name}
             handleChange={handleChange}
           />
+          <FormField
+            LabelName="Prompt"
+            type="text"
+            name="prompt"
+            placeholder="A space scene with planets and stars"
+          />
         </div>
       </form>
     </section>
