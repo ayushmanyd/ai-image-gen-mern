@@ -45,7 +45,11 @@ const CreateNewPost = () => {
             type="text"
             name="prompt"
             placeholder="A space scene with planets and stars"
+            value={form.prompt}
+            handleChange={handleChange}
+            isSurpriseMe
           />
+
         </div>
       </form>
     </section>
