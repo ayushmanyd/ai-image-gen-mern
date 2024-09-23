@@ -17,40 +17,41 @@ const Home = () => {
 
   const [searchText, setSearchText] = useState("SearchedText");
 
+  const [searchTimeout, setSearchTimeout] = useState(null);
+  const [searchedResults, setSearchedResults] = useState(null);
+
+
+
   return (
     <section className="max-w-7xl mx-auto">
-
       <div className="mt-16">
-          <FormField />
-        </div>
+        <FormField />
+      </div>
 
-        <div className="mt-10">
-          {loading ? (
-            <div className="flex justify-center items-center">
-              <Loader />
-            </div>
-          ) : (
-            <>
-              {searchText && (
-                <h2 className="font-medium text-[#666e75] text-xl mb-3">
-                  Showing results for{" "}
-                  <span className="text-[#222328]">{searchText}</span>
-                </h2>
+      <div className="mt-10">
+        {loading ? (
+          <div className="flex justify-center items-center">
+            <Loader />
+          </div>
+        ) : (
+          <>
+            {searchText && (
+              <h2 className="font-medium text-[#666e75] text-xl mb-3">
+                Showing results for{" "}
+                <span className="text-[#222328]">{searchText}</span>
+              </h2>
+            )}
+            <div className="grid lg:grid-cols-4 sm:grid-cols-3 xs:grid-cols-2 grid-cols-1 gap-3">
+              {searchText ? (
+                <RenderCards data={[]} title="No search results found" />
+              ) : (
+                <RenderCards data={[]} title="No posts found" />
               )}
-              <div className="grid lg:grid-cols-4 sm:grid-cols-3 xs:grid-cols-2 grid-cols-1 gap-3">
-                {searchText ? (
-                  <RenderCards
-                    data={[]}
-                    title="No search results found"
-                  />
-                ) : (
-                  <RenderCards data={[]} title="No posts found" />
-                )}
-              </div>
-            </>
-          )}
-        </div>
-        
+            </div>
+          </>
+        )}
+      </div>
+
       <div>
         <h1 className="font-extrabold text-[#222328] text-[32px]">
           Explore others Post
@@ -63,7 +64,6 @@ const Home = () => {
       <div className="mt-16">
         <FormField />
       </div>
-
     </section>
   );
 };
