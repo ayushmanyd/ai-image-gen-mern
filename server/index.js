@@ -13,7 +13,7 @@ app.use(cors());
 app.use(express.json({ limit: "50mb" }));
 
 app.use("/api/v1/post", postRoutes);
-app.use("/api/v1/dRoutes", dRoutes);
+app.use("/api/v1/d", dRoutes);
 
 app.get("/", async (req, res) => {
   res.send("Hello World");
