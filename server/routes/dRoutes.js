@@ -13,5 +13,9 @@ const configuration = new OpenAI({
 
 const openai = new OpenAI(configuration);
 
+router.route("/").get((req, res) => {
+  res.send("Hello from OpenAI");
+});
+
 
 export default router;
