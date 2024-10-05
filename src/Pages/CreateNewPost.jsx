@@ -34,7 +34,12 @@ const CreateNewPost = () => {
         setForm({ ...form, photo: `data:image/jpeg;base64,${data.photo}` });
       } catch (error) {
         alert(error);
+      } finally {
+        setGeneratingImg(false);
       }
+    } else {
+      alert("Please enter a prompt");
+    }
   };
 
   const handleSubmit = () => {};
