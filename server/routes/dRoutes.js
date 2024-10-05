@@ -1,10 +1,17 @@
 import express from "express";
 import * as dotenv from "dotenv";
 
-import { Configuration, OpenAIApi } from openai;
-
-import Post from "../mongodb/models/post.js";
+import OpenAI from "openai";
 
 dotenv.config();
 
 const router = express.Router();
+
+const configuration = new OpenAI({
+  apiKey: process.env.OPENAI_API_KEY,
+});
+
+const openai = new OpenAI(configuration);
+
+
+export default router;
