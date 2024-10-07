@@ -25,8 +25,16 @@ router.route("/").post(async (req, res) => {
       prompt,
       n: 1,
       size: "1024x1024",
+      response_format: "b64_json",
     });
 
+    const image = aiResponse.data[0].b64_json;
+
+    return res.status(200).json({ photo: image });
+  } catch (error) {
+    console.log(error);
+    res.status(500).send(error?.response.data.error.message);
+  }
 });
 
 export default router;
