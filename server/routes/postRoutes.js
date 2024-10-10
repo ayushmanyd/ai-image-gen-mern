@@ -37,6 +37,12 @@ router.route("/").post(async (req, res) => {
       prompt,
       photo: photoUrl.url,
     });
+
+    res.status(200).json({ success: true, data: newPost });
+  } catch (err) {
+    
+    
+  }
 });
 
 export default router;
