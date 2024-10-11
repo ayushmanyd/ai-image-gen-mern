@@ -20,6 +20,18 @@ const Home = () => {
   const [searchTimeout, setSearchTimeout] = useState(null);
   const [searchedResults, setSearchedResults] = useState(null);
 
+  const fetchPosts = async () => {
+    setLoading(true);
+
+    try {
+      const response = await fetch('https://dalle-arbb.onrender.com/api/v1/post', {
+        method: 'GET',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+      });
+  };
+
   const handleSearchChange = (e) => {
     clearTimeout(searchTimeout);
     setSearchText(e.target.value);
