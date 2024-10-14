@@ -30,8 +30,14 @@ const Home = () => {
           'Content-Type': 'application/json',
         },
       });
-  };
 
+      if (response.ok) {
+        const result = await response.json();
+        setAllPosts(result.data.reverse());
+      }
+    }
+  };
+  
   const handleSearchChange = (e) => {
     clearTimeout(searchTimeout);
     setSearchText(e.target.value);
