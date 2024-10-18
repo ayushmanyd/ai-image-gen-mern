@@ -24,12 +24,15 @@ const Home = () => {
     setLoading(true);
 
     try {
-      const response = await fetch('https://dalle-arbb.onrender.com/api/v1/post', {
-        method: 'GET',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-      });
+      const response = await fetch(
+        "https://dalle-arbb.onrender.com/api/v1/post",
+        {
+          method: "GET",
+          headers: {
+            "Content-Type": "application/json",
+          },
+        }
+      );
 
       if (response.ok) {
         const result = await response.json();
@@ -60,10 +63,6 @@ const Home = () => {
 
   return (
     <section className="max-w-7xl mx-auto">
-      <div className="mt-16">
-        <FormField />
-      </div>
-
       <div className="mt-10">
         {loading ? (
           <div className="flex justify-center items-center">
@@ -86,19 +85,6 @@ const Home = () => {
             </div>
           </>
         )}
-      </div>
-
-      <div>
-        <h1 className="font-extrabold text-[#222328] text-[32px]">
-          Explore others Post
-        </h1>
-        <p className="mt-2 text-[#666e75] text-[16px] max-w[500px]">
-          Browse through a collection of already generated stunning images
-        </p>
-      </div>
-
-      <div className="mt-16">
-        <FormField />
       </div>
     </section>
   );
