@@ -80,6 +80,16 @@ const Home = () => {
         <FormField />
       </div>
 
+      <div className="mt-16">
+        <FormField
+          labelName="Search posts"
+          type="text"
+          name="text"
+          placeholder="Search something..."
+          value={searchText}
+          handleChange={handleSearchChange}
+        />
+      </div>
 
       <div className="mt-10">
         {loading ? (
