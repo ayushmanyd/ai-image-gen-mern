@@ -36,6 +36,14 @@ router.route("/").post(async (req, res) => {
       prompt,
       photo: photoUrl.url,
     });
+
+    res.status(200).json({ success: true, data: newPost });
+  } catch (err) {
+    res.status(500).json({
+      success: false,
+      message: "Unable to create a post, please try again",
+    });
+  }
 });
 
 export default router;
