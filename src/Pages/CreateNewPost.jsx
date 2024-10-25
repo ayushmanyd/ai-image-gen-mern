@@ -81,6 +81,24 @@ const CreateNewPost = () => {
     setForm({ ...form, prompt: randomPrompt });
   };
 
+  const handleMySubmit = async (e) => {
+    e.preventDefault();
+
+    if (form.prompt && form.photo) {
+      setLoading(true);
+      try {
+        const response = await fetch(
+          "https://dalle-arbb.onrender.com/api/v1/post",
+          {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+            },
+            body: JSON.stringify({ ...form }),
+          }
+        );
+  };
+
   return (
     <section className="max-w-7xl mx-auto">
       <div>
