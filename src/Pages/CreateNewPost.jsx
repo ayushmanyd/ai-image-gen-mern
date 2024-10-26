@@ -111,6 +111,19 @@ const CreateNewPost = () => {
     }
   };
 
+  const generateSurpriseMeImage = async () => {
+    if (form.prompt) {
+      try {
+        setGeneratingImg(true);
+        const response = await fetch("http://localhost:8080/api/v1/d", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({ prompt: form.prompt }),
+        });
+  };
+
   return (
     <section className="max-w-7xl mx-auto">
       <div>
