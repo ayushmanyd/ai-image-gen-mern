@@ -122,6 +122,18 @@ const CreateNewPost = () => {
           },
           body: JSON.stringify({ prompt: form.prompt }),
         });
+
+        const data = await response.json();
+
+        setForm({ ...form, photo: `data:image/jpeg;base64,${data.photo}` });
+      } catch (error) {
+        alert(error);
+      } finally {
+        setGeneratingImg(false);
+      }
+    } else {
+      alert("No prompt");
+    }
   };
 
   return (
